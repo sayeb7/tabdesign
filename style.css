@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+*{
+ text-transform: capitalize;
+ list-style-type: none;
+ text-decoration: none;
+ padding: 0;
+ margin: 0;
+}
+/* 
+body{
+    background: #ddd;
+    font-family: "raleway";
+}
+.tabs{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 500px;
+    height: 250px;
+    /* background: brown; */
+    /* padding: 20px 30px;
+    overflow: hidden;
+    border-radius: 50px;
+    box-shadow: 5px 10px 5px rgb(130, 204, 130);
+} */
+/* .tabs .tabs-header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+} */
+/* .tabs .tab-header .div{
+    margin-right: 20px; */
+    /* width: calc(100%/4); */
+    /* text-align: center;
+    color: rgb(243, 210, 169);
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+} */ 
+
+/* .tabs .tab-header > div > i{
+    display: block;
+    margin-bottom: 5px;
+}
+.tabs .tab-header > div.active{
+    color: cornflowerblue;
+} */
+/* .tabs .tabs-indicators{
+    position: relative;
+    width: calc(100%/4);
+    height: 5px;
+    background: violet;
+    left: 0;
+    border-radius: 5px;
+}
+.tabs .tabs-body{
+    position: relative;
+    height: calc(100% -60px);
+    padding: 10px 5px;
+}
+.tabs .tabs-body > div {
+    position: absolute;
+    top: -200%;
+    opacity: 0;
+    margin-top: 5px;
+    transform: scale(0.9);
+    transition: opacity 500ms ease-in-out0ms,
+                 transform 500ms ease-in-out0ms;
+} */
+/* .tabs .tabs-body > div.active{
+    top: 0;
+    opacity: 1;
+    transform: scale(1);
+    margin-top: 0px;
+} */
+
+i{
+    /* float: left; */
+    padding-right: 9px;
+    color: rgb(255, 255, 108);
+}
+
+
+.tabs-cover{
+    width: 500px;
+    margin: 0 auto;
+    /* transform: all 0.3s ease-out; */
+}
+.tab-btn{
+    display: inline-block;
+    padding:12px 10px;
+    color: white;
+    border-radius: 7px;
+    width: 75px;
+    text-align: center;
+    /* background: green; */
+}
+.tab-btn:hover{
+    cursor: pointer;
+}
+.tab{
+    width: 400px;
+    height: 250px;
+    /* line-height: 300px; */
+    text-align: center;
+    background: aqua;
+    font-size: 40px;
+    color: white;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+p{
+    padding-top: 30px;
+}
+h5{
+    font-size: 23px;
+    text-align: left;
+    padding-left: 10px;
+    color: crimson;
+}
